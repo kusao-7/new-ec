@@ -13,7 +13,7 @@ public class Name {
         if (firstName.matches(REGEX)) {
             this.firstName = firstName;
         } else {
-            throw new IllegalArgumentException("入力形式が正しくありません。");
+            throw new IllegalArgumentException("名前の入力形式が正しくありません。");
         }
     }
 

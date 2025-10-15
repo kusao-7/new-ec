@@ -9,7 +9,7 @@ public class Email {
     // コンストラクタ
     public Email(String email) {
         if (!email.matches(REGEX)) {
-            throw new IllegalArgumentException("入力形式が正しくありません。");
+            throw new IllegalArgumentException("メールアドレスの入力形式が正しくありません。");
         }
         this.email = email;
     }

@@ -16,7 +16,7 @@ public class PhoneNumber {
         if (phoneNumber.matches(PHONE_NUMBER_REGEX)) {
             this.phoneNumber = phoneNumber;
         }else  {
-            throw new IllegalArgumentException("無効な電話番号です。");
+            throw new IllegalArgumentException("電話番号の入力形式が正しくありません。");
         }
     }
 

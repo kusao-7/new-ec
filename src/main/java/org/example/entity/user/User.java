@@ -16,7 +16,7 @@ public class User {
     // コンストラクタ
     public User(Name firstName, Name lastName, Email email, Password password, Address address, PhoneNumber phoneNumber, BirthDate birth, Gender gender) {
         if (firstName == null || lastName == null || email == null || password == null || address == null || phoneNumber == null || birth == null || gender == null) {
-            throw new IllegalArgumentException("必須フィールドがnullです。");
+            throw new IllegalArgumentException("必須項目が入力されていません。");
         }
         this.firstName = firstName;
         this.lastName = lastName;

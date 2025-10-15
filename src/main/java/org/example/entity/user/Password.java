@@ -9,7 +9,7 @@ public class Password {
     // コンストラクタ
     public Password(String password) {
         if (!password.matches(REGEX)) {
-            throw new IllegalArgumentException("入力形式が正しくありません。");
+            throw new IllegalArgumentException("パスワードの入力形式が正しくありません。");
         }
         this.password = password;
     }
