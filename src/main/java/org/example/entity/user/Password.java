@@ -13,4 +13,9 @@ public class Password {
         }
         this.password = password;
     }
+
+    // getter
+    public String getPassword() {
+        return password;
+    }
 }

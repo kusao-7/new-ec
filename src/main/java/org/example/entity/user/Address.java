@@ -10,4 +10,8 @@ public class Address {
         this.detailAddress = detailAddress;
     }
 
+    //getter
+    public Prefecture getPrefecture() {
+        return prefecture;
+    }
 }
