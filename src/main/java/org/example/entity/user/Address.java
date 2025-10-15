@@ -14,4 +14,12 @@ public class Address {
     public Prefecture getPrefecture() {
         return prefecture;
     }
+
+    public String getDetailAddress() {
+        return detailAddress;
+    }
+
+    public String getAddress() {
+        return this.prefecture + this.detailAddress;
+    }
 }
